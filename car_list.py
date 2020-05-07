@@ -11,6 +11,7 @@ def car_listing(car_prices):
     for car, price in car_prices.items():
         result += "{} costs {} dollars".format(car, price) + "\n"
     return result
-#wtf man
+
+print("Testing my Git skills to see if I still got it")
 
 print(car_listing({"Kia Soul":19000, "Lamborghini Diablo":55000, "Ford Fiesta":13000, "Toyota Prius":24000}))
